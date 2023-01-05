@@ -13,3 +13,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("../fonts/Cormorant-Bold.eot"),
+    url("../fonts/Cormorant-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
