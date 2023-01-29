@@ -15,12 +15,12 @@
 <body class="px-[40px]">
     <header class="flex py-4 w-full items-center border-b border-black">
         <div>
-            <a href="./index.html"><img src="assets/logo.png" alt="Logo" class="h-[40px]" /></a>
+            <a href="/index.html"><img src="assets/logo.png" alt="Logo" class="h-[40px]" /></a>
         </div>
         <nav class="flex flex-1 h-full">
             <ul class="flex justify-end gap-[65px] flex-1">
                 <li class="uppercase cursor-pointer group leading-6 flex items-center">
-                    <a href="./project.html" class="relative">
+                    <a href="/project.html" class="relative">
                         Проекты
                         <span
                             class="absolute h-px w-0 bottom-0 left-0 right-0 bg-black group-hover:w-full transition-all"></span>
@@ -62,69 +62,71 @@
         </nav>
     </header>
 
-    <!-- <main id="swup" class="transition-fade"> -->
+    <main id="swup" class="swup-transition-fade">
 
-    <section id="hero" class="pt-[151px] flex flex-col pb-24">
-        <div class="flex-1 flex">
-            <h1 class="custom-font text-[76px] uppercase leading-[72px] font-medium w-[640px]">
-                павильон вднх
-            </h1>
-        </div>
-        <div class="mt-14 grid grid-cols-2">
-            <div></div>
-            <div class="w-[417px]">
-                Разработка проектной документации по переоборудованию павильона в резервный коронавирусный
-                госпиталь, рассчитанный на 1707 коек и оборудованный всем необходимым (аппараты ИВЛ и УЗИ,
-                компьютерные томографы, рентген).
+        <section id="hero" class="pt-[151px] flex flex-col pb-24">
+            <div class="flex-1 flex">
+                <h1 class="custom-font text-[76px] uppercase leading-[72px] font-medium w-[640px]">
+                    павильон вднх
+                </h1>
             </div>
-        </div>
-        <div class="mt-14 grid grid-cols-2">
-
-            <div class="pr-[148px] flex flex-col">
-                <div id="slider" class="swiper w-full h-[300px] mb-4 aspect-video">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide bg-red-500"></div>
-                        <div class="swiper-slide bg-blue-500"></div>
-                        <div class="swiper-slide bg-black"></div>
-                    </div>
+            <div class="mt-14 grid grid-cols-2">
+                <div></div>
+                <div class="w-[417px]">
+                    Разработка проектной документации по переоборудованию павильона в резервный коронавирусный
+                    госпиталь, рассчитанный на 1707 коек и оборудованный всем необходимым (аппараты ИВЛ и УЗИ,
+                    компьютерные томографы, рентген).
                 </div>
-                <div class="flex justify-end">
-                    <div>
-                        <span id="currentSlide" class="custom-font text-2xl text-gray-600 transition">01</span>
-                        —
-                        <span id="allSlides" class="custom-font text-2xl text-gray-400 transition"></span>
-                    </div>
-                    <div class="flex gap-2.5 ml-12">
-                        <div id="arrowLeft"
-                            class="flex aspect-square justify-center items-center transition hover:scale-125">
-                            <img src="assets/icons/arrow-left.svg" alt="" class="w-full object-cover">
-                        </div>
-                        <div id="arrowRight"
-                            class="flex aspect-square justify-center items-center transition hover:scale-125">
-                            <img src="assets/icons/arrow-right.svg" alt="" class="w-full object-cover">
+            </div>
+            <div class="mt-14 grid grid-cols-2">
+
+                <div class="pr-[148px] flex flex-col">
+                    <div id="slider" class="swiper w-full h-[300px] mb-4 aspect-video">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide bg-red-500"></div>
+                            <div class="swiper-slide bg-blue-500"></div>
+                            <div class="swiper-slide bg-black"></div>
                         </div>
                     </div>
+                    <div class="flex justify-end">
+                        <div>
+                            <span id="currentSlide" class="custom-font text-2xl text-gray-600 transition">01</span>
+                            —
+                            <span id="allSlides" class="custom-font text-2xl text-gray-400 transition"></span>
+                        </div>
+                        <div class="flex gap-2.5 ml-12">
+                            <div id="arrowLeft"
+                                class="flex aspect-square justify-center items-center transition hover:scale-125">
+                                <img src="assets/icons/arrow-left.svg" alt="" class="w-full object-cover">
+                            </div>
+                            <div id="arrowRight"
+                                class="flex aspect-square justify-center items-center transition hover:scale-125">
+                                <img src="assets/icons/arrow-right.svg" alt="" class="w-full object-cover">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="flex flex-col">
-                <img src="assets/vdnh.png" alt="павильон вднх" class="mb-10">
-                <div class="grid grid-cols-2">
-                    <div class="flex flex-col">
-                        <h3 class="custom-font uppercase text-xl pb-2.5">объект</h3>
-                        <p>
-                            Выставочный павильон №75 ВДНХ
-                            <span class="font-bold text-black">Площадь 58 тыс.м2</span>
-                        </p>
-                    </div>
-                    <div class="flex flex-col">
-                        <h3 class="custom-font uppercase text-xl pb-2.5">заказчик</h3>
-                        <p>ГКУ «УКРиС», 2020</p>
+                <div class="flex flex-col">
+                    <img src="assets/vdnh.png" alt="павильон вднх" class="mb-10">
+                    <div class="grid grid-cols-2">
+                        <div class="flex flex-col">
+                            <h3 class="custom-font uppercase text-xl pb-2.5">объект</h3>
+                            <p>
+                                Выставочный павильон №75 ВДНХ
+                                <span class="font-bold text-black">Площадь 58 тыс.м2</span>
+                            </p>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3 class="custom-font uppercase text-xl pb-2.5">заказчик</h3>
+                            <p>ГКУ «УКРиС», 2020</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </main>
 
     <footer class="border-t border-black py-[47px]">
         <img src="assets/logo.png" alt="Abam" class="h-[35px] mb-24" />
@@ -193,7 +195,6 @@
             </div>
         </div>
     </footer>
-    <!-- </main> -->
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>

@@ -1,0 +1,33 @@
+.accordion {
+    padding: 24px 0;
+}
+
+.accordion__control {
+    width: 100%;
+    /* transition: .5s ease; */
+}
+
+.open .accordion__control {
+    width: 50%;
+}
+
+.accordion__content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 1;
+    padding-right: 34px;
+    will-change: max-height;
+    /* transition: .5s ease-in-out; */
+}
+
+.show.accordion__content {
+    opacity: 1;
+}
+
+/* .accordion {
+    flex-direction: column;
+}
+
+.row.accordion {
+    flex-direction: row;
+} */
